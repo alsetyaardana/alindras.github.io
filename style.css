@@ -19,7 +19,7 @@ body {
 /* Header Area Styling */
 .headerarea {
     background-color: #e4e4e4;
-    padding: 12px;
+    padding: 7%;
     display: flex;
     justify-content: space-between;
 }
