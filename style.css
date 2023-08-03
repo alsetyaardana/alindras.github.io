@@ -1,0 +1,93 @@
+/* Global styling */
+
+html, body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: auto;
+    padding: 7px;
+}
+
+body {
+    background-image: url(images/background2.png);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header Area Styling */
+.headerarea {
+    background-color: #e4e4e4;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+/* Body Area Styling */
+.bodyarea {
+    padding: 20px;
+}
+
+.bodyarea h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bodyarea h2 {
+    font-size: 20px;
+}
+
+.bodyarea p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.bodyarea a {
+    color: blue;
+}
+.fotoku img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
